@@ -1,0 +1,2 @@
+log_level: info
+app_name: ${APP_NAME}

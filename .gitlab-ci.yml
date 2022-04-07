@@ -1,0 +1,8 @@
+include:
+- project: 'security/ci-templates'
+  file: '/SAST.yml'
+
+test:golang-lint:
+  image: golangci/golangci-lint:latest
+  script:
+    - golangci-lint run -v
